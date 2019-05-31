@@ -1,0 +1,180 @@
+* {
+    font-family: "Lato", sans-serif;
+    background: #F8FAFC;
+}
+
+/* Progress Tracker */
+  
+  main {
+    margin: 5rem auto 0;
+    max-width: 600px;
+  }
+  
+  #active1 {
+      color: #3182ce;
+  }
+
+  #active2 {
+    color: #3182ce;
+}
+
+#active3 {
+    color: #3182ce;
+}
+
+  .progress-trackers {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .progress-tracker {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1.5rem;
+  }
+  
+  .progress-tracker span {
+    padding: 10px 15px;
+    background: #8795a1;
+    color: white;
+    border-radius: 50%;
+    font-size: 21px;
+    width: 20px;
+    text-align: center;
+  }
+  
+  .progress-tracker h2 {
+    text-transform: uppercase;
+    color: #8795a1;
+    font-size: 16px;
+    text-align: center;
+  }
+  
+  .active-tracker {
+    color: #3182ce;
+  }
+  
+  .active-tracker span {
+    background: #3182ce;
+}
+
+/* Form */
+
+.form-help {
+    display: block;
+    text-align: center;
+}
+
+header {
+    font-size: 21px;
+    margin-bottom: 2rem;
+    background: white;
+}
+
+.form-field {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+}
+
+.form-field label {
+    padding-bottom: .5rem;
+    color: #22292F;
+    font-weight: bold;
+    background: white;
+}
+
+.form-field input {
+    border: 0;
+    background: #DAE1E7;
+    padding: .5rem;
+    font-size: 1rem;
+    border-radius: 3px;
+}
+
+/*.same-row {
+    margin: 15px;
+  background-color: red;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  
+  .column {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+}*/
+
+form {
+    display: inline-block;
+    text-align: left;
+    padding: 1rem 1.5rem;
+    background: white;
+    border-radius: 3px;
+    box-shadow: 0 4px 4px 0 rgba(135,149,161,0.50);
+    width: 350px;
+    height: 350px;
+}
+
+.personal {
+    width: 350px;
+    height: 650px;  
+}
+
+.billing {
+    width: 350px;
+    height: 550px;
+}
+
+form button {
+    float: right;
+    border: 0;
+    font-size: 1rem;
+    background: #3182CE;
+    color: white;
+    border-radius: 3px;
+    padding: .5rem .75rem;
+    transition: all .2s ease-in-out;
+}
+
+form button:hover {
+    background: white;
+    color: #3182CE;
+    border: 1px dotted;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 16px;
+  }
+  
+  a:hover {
+    background-color: #8795A1;
+    color: white;
+  }
+  
+  .previous {
+    background-color: white;
+    color: #8795A1;
+    border: 1px #8795A1 solid;
+    border-radius: 3;
+  }
+
+  .next {
+    float: right;
+    border: 0;
+    font-size: 1rem;
+    background: #3182CE;
+    color: white;
+    border-radius: 3px;
+    padding: .5rem .75rem;
+    transition: all .2s ease-in-out;
+  }
